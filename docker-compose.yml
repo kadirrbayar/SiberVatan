@@ -1,0 +1,35 @@
+services:
+  bot:
+    build:
+      context: .
+      args:
+        PROJECT: SiberVatan
+    restart: always
+    image: sibervatan-bot:latest
+    container_name: sibervatan-bot
+    entrypoint: ["dotnet", "SiberVatan.dll"]
+    env_file:
+      - .env
+    volumes:
+      - ./Languages:/app/Languages
+      - ./logs:/app/logs
+    networks:
+      - bot-net
+    depends_on:
+      - redis
+
+  redis:
+    image: redis:alpine
+    container_name: sibervatan-redis
+    restart: always
+    volumes:
+      - redis_data:/data
+    networks:
+      - bot-net
+
+volumes:
+  redis_data:
+
+networks:
+  bot-net:
+    driver: bridge

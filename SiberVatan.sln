@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36717.8
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SiberVatan", "SiberVatan.csproj", "{46C4A3AC-83CB-A4DC-E783-B2402481B1B7}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Languages", "Languages\Languages.shproj", "{F7EAC45D-5CAA-4322-A335-89CE0A0884FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{46C4A3AC-83CB-A4DC-E783-B2402481B1B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46C4A3AC-83CB-A4DC-E783-B2402481B1B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46C4A3AC-83CB-A4DC-E783-B2402481B1B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46C4A3AC-83CB-A4DC-E783-B2402481B1B7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5C2AE295-F18E-4949-880C-62CD26B918C8}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Languages\Languages.projitems*{f7eac45d-5caa-4322-a335-89ce0a0884fe}*SharedItemsImports = 13
+	EndGlobalSection
+EndGlobal

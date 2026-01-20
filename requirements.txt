@@ -1,5 +1,0 @@
-python-telegram-bot
-redis
-python-dotenv
-PyYAML
-pandas

@@ -1,0 +1,318 @@
+﻿language:
+  base: Turkish
+  variant: Normal
+strings:
+  WelcomeMessage:
+    - |
+      👋 <b>Hoşgeldin {0}!</b>
+
+      🤖 <b>Siber Vatan Grup Yönetim Botu</b>'na hoş geldin.
+      🛡️ Bu bot; <b>spam/flood koruması</b>, <b>gelişmiş filtreler</b> ve <b>kayıt sistemi</b> gibi birçok özelliğiyle grubunuzu güvende tutar. 
+      
+      🚀 Siber Vatan gruplarının yönetimini kolaylaştırmak ve düzeni sağlamak için buradayım.
+
+  # Global Actions
+  warnUser:
+    - |
+      ⚠️ <b>{0} Uyarıldı!</b>
+
+      <b>Sebep:</b> {3}  
+      Toplam uyarı sayısı: <b>{1}/{2}</b>
+  warnKick:
+    - |
+      👟 <b>{0} Gruptan Atıldı!</b>
+
+      <b>Sebep:</b> {1}
+  warnBan:
+    - |
+      🔨 <b>{0} Yasaklandı!</b>
+
+      <b>Sebep:</b> {1}
+  warnMute:
+    - |
+      🔇 <b>{0} Susturuldu!</b>
+      
+      <b>Sebep:</b> {1}
+      
+  warnLimitReached:
+    - "⚠️ <b>Uyarı limitine ulaşıldı! ({0}/{1})</b>\n"
+
+  # Reasons
+  reasonTextTooLong:
+    - "Mesaj sınırı aşıldı (Max: {0} karakter)"
+  reasonMediaBlocked:
+    - "Yasaklı medya türü ({0})"
+  reasonFlood:
+    - "Flood / Spam tespiti ({0}/{1})"
+  reasonForward:
+    - Mesaj iletme yasak
+
+  removeWarnButton:
+    - ⚠️ Uyarıyı Kaldır!
+  removeBanButton:
+    - ✅ Yasağı Kaldır!
+  unmuteButton:
+    - 🗣 Sesi Aç!
+  mainMenu:
+    - |
+      ⚙️ <b>Ayarlar Menüsü</b> 
+      {0} Grubunun ayarlarını yapılandırabilirsiniz.
+  
+  generalButton:
+    - 🔧 Genel
+  antiButton:
+    - 🛡️ Anti Spam & Medya
+  warnsButton:
+    - ⚠️ Uyarı Ayarları
+  floodButton:
+    - 🌊 Flood Ayarları
+  closeButton:
+    - ⏎ Kapat
+  backButton:
+    - ⏎ Geri
+
+  
+  ThankYou:
+    - ✅ Siber Vatan Botu kullandığınız için teşekkürler!
+  GroupOnly:
+    - ❌ Bu komut sadece <b>gruplarda</b> kullanılabilir!
+  DevOnly:
+    - 🛡️ Bu komut sadece geliştirici tarafından kullanılabilir!
+  GroupAdminOnly:
+    - ⛔️ Bu komut sadece grup adminleri tarafından kullanılabilir!
+
+  menuSentPM:
+    - ✅ Ayarlar menüsü özel mesajınıza gönderildi
+  menuPMRequired:
+    - ❌ Lütfen önce benimle özel bir sohbet başlatın, ardından /menu komutunu tekrar deneyin
+  
+  # General Menu
+  generalMenu:
+    - |
+      🔧 <b>Genel Ayarlar</b>
+      
+      Genel grup özelliklerini yapılandırın:
+      
+  welcomeLabel:
+    - Hoşgeldin Mesajı
+  deleteWelcomeLabel:
+    - Hoşgeldin Mesajını Sil
+  extralistLabel:
+    - 'Tüm #Notları Gör'
+  extraLabel:
+    - '#Notlar Kullanımı'
+  captchaLabel:
+    - Kullanıcı Kayıt
+  forwardLabel:
+    - Mesaj İletme Yasağı
+  forwardActionLabel:
+    - İletim Yasağı Aksiyonu
+  casLabel:
+    - Global Yasaklar
+
+  antiMenu:
+    - |
+      🛡️ <b>Anti Spam & Medya Ayarları</b>
+      
+      Spam filtrelerini ve medya kısıtlamalarını yapılandırın:
+
+  antiTextMenu:
+    - |
+      📝 <b>Anti Mesaj Uzunluğu Ayarları</b>
+
+      Mesaj uzunluğu ve satır sayısı kısıtlamalarını yapılandırın:
+
+  antiTextLengthToggleLabel:
+    - Anti Mesaj Uzunluğu
+  antiTextLengthActionLabel:
+    - Anti Mesaj Aksiyonu
+  antiTextMaxLengthLabel:
+    - Max Karakter
+  antiTextMaxLinesLabel:
+    - Max Satır
+  
+  antiTextButton:
+    - 📝 Mesaj Uzunluğu Ayarları
+
+  warnsMenu:
+    - |
+      ⚠️ <b>Uyarı Ayarları</b>
+      
+      Uyarı sistemini yapılandırın:
+  warnActionLabel:
+    - Uyarı Aksiyonu
+  maxWarnsLabel:
+    - Max Uyarı
+  
+  floodMenu:
+    - |
+      🌊 <b>Flood Ayarları</b>
+      
+      Anti-flood korumasını yapılandırın:
+  antiFloodLabel:
+    - Anti Flood
+  floodActionLabel:
+    - Flood Aksiyonu
+  messages5sLabel:
+    - Mesaj / 5sn
+  
+  antiMediaMenu:
+    - |
+      📷 <b>Anti Medya Ayarları</b>
+      
+      İzin verilen medya türlerini yapılandırın:
+
+  photoLabel:
+    - 📸 Resim
+  videoLabel:
+    - 📹 Video
+  audioLabel:
+    - 🎵 Ses
+  voiceLabel:
+    - 🎤 Ses Kaydı
+  documentLabel:
+    - 📄 Dosya
+  stickerLabel:
+    - 🎨 Sticker
+  videonoteLabel:
+    - 📹 Video Notu
+  contactLabel:
+    - 👤 Kişi
+  locationLabel:
+    - 📍 Konum
+  venueLabel:
+    - 📍 Yer
+  pollLabel:
+    - 📊 Anket
+  gameLabel:
+    - 🎮 Oyun
+  apkLabel:
+    - 📦 APK
+  diceLabel:
+    - 🎲 Zar
+  animationLabel:
+    - 🎬 GIF
+  urlLabel:
+    - 🔗 Link
+  antiMediaActionLabel:
+    - ⚡ Anti Medya Aksiyon
+
+  # Extra Commands
+  extraUsage:
+    - "⚠️ Kullanım: /extra #hashtag mesaj içeriği"
+  extraHashtagAndContentRequired:
+    - "⚠️ Hashtag ve mesaj içeriği gerekli.\nÖrnek: /extra #test <b>Mesaj</b>"
+  extraHashtagMustStartWithHash:
+    - "⚠️ Hashtag # ile başlamalı.\nÖrnek: /extra #test <b>Mesaj</b>"
+  extraContentEmpty:
+    - "⚠️ Mesaj içeriği boş olamaz."
+  extraSaved:
+    - "✅ Extra kaydedildi: {0}"
+  extraSaveFailed:
+    - "❌ Extra kaydedilemedi."
+  extraError:
+    - "❌ Hata oluştu: {0}"
+  
+  extralistNoExtras:
+    - "📝 Kayıtlı extra bulunamadı."
+  extralistTitle:
+    - "📝 <b>Kayıtlı Extralar</b> ({0}):\n\n"
+  
+  extradelUsage:
+    - "⚠️ Kullanım: /extradel #hashtag"
+  extradelHashtagMustStartWithHash:
+    - "⚠️ Hashtag # ile başlamalı.\nÖrnek: /extradel #test"
+  extradelNotFound:
+    - "⚠️ Extra bulunamadı: {0}"
+  extradelSuccess:
+    - "✅ Extra silindi: {0}"
+  extradelFailed:
+    - "❌ Extra silinemedi."
+
+  # Welcome Message
+  setwelcomeSuccess:
+    - "✅ Hoşgeldin mesajı kaydedildi!"
+  setwelcomeSuccessWithMedia:
+    - "✅ Hoşgeldin mesajı {0} ile kaydedildi!"
+  setwelcomeNoText:
+    - "⚠️ Lütfen bir mesaj yazın veya medya içeren bir mesaja yanıt verin."
+  welcomeNotSet:
+    - "⚠️ Bu grup için henüz hoşgeldin mesajı ayarlanmamış.\n/setwelcome komutu ile ayarlayabilirsiniz."
+
+  # Registration System
+  registerButton:
+    - "📝 Kayıt Ol"
+  registerMessage:
+    - "👥 <b>Grup Kaydı</b>\n\nBu gruba kayıt olmak için aşağıdaki butona tıklayın."
+  alreadyRegistered:
+    - "✅ Bu grup için zaten kayıtlısınız!"
+  notMember:
+    - "⚠️ Bu grubun üyesi değilsiniz!"
+  welcomeUserMsg:
+    - "👋 Merhaba!\n\n<b>{0}</b> grubuna kayıt olmak için lütfen <b>adınızı ve soyadınızı</b> yazın.\n\nÖrnek: Ahmet Yılmaz"
+  invalidFormat:
+    - "⚠️ Geçersiz format! Lütfen adınızı ve soyadınızı yazın."
+  registerSuccess:
+    - "✅ Kayıt başarılı! Artık gruba kayıtlısınız."
+  noGroups:
+    - "⚠️ Henüz kayıtlı grup bulunmuyor."
+  selectGroup:
+    - "📊 Rapor almak istediğiniz grubu seçin:"
+  unknownGroup:
+    - "Bilinmeyen Grup"
+  noUsersCsv:
+    - "Kayıtlı kullanıcı yok"
+  csvCaption:
+    - "📊 <b>{0}</b> Grup Raporu\n\n👥 Toplam Üye: {1}\n✅ Kayıtlı: {2}\n❌ Kayıtsız: {3}"
+  registrationRequired:
+    - "⚠️ Bu grupta mesaj göndermek için kayıt olmalısınız!\n\nLütfen aşağıdaki butona tıklayarak kayıt olun."
+
+  # Moderation Actions
+  userUnbanned:
+    - "✅ {0} kullanıcısının yasağı kaldırıldı."
+  userUnmuted:
+    - "✅ {0} kullanıcısının susturulması kaldırıldı."
+  warnRemoved:
+    - "✅ {0} kullanıcısının 1 uyarısı kaldırıldı."
+  warnTempBan:
+    - "⏳ {0} gruptan 30 dakikalığına uzaklaştırıldı.\n(Sebep: {1})"
+
+  # Broadcast Command
+  broadcastContentRequired:
+    - "⚠️ Mesaj içeriği veya yanıtlanan mesaj gerekli."
+  broadcastNoGroups:
+    - "⚠️ Kayıtlı grup bulunamadı."
+  broadcastSending:
+    - "🔄 {0} gruba gönderiliyor..."
+  broadcastReport:
+    - "📢 <b>Broadcast Raporu:</b>\n✅ Gönderilen: {0}\n❌ Gönderilemeyen: {1}\n"
+  broadcastFailedIds:
+    - "\nBaşarısız ID'ler:\n{0}"
+
+  # Registration Questionnaire
+  askAttendance:
+    - |
+      🏫 <b>Yüz Yüze Eğitim Anketi</b>
+      Eğitime yüz yüze katılacak mısınız?
+      <i>Lütfen aşağıdaki seçeneklerden birini seçiniz:</i>
+  btnYes:
+    - ✅ Katılıyorum
+  btnNo:
+    - ❌ Katılmıyorum
+  btnMaybe:
+    - ❔ Belirsiz
+  registrationCompleteWithAttendance:
+    - |
+      ✅ <b>Kayıt Başarılı!</b>
+      👤 <b>Ad Soyad:</b> {0}
+      🏫 <b>Katılım Durumu:</b> {1}
+      Gruba başarıyla kaydedildiniz. Teşekkürler!
+  sessionExpired:
+    - ⚠️ Süre doldu veya geçersiz durum. Lütfen tekrar deneyin.
+  registrationFailed:
+    - ❌ Kayıt başarısız oldu. Lütfen tekrar deneyin.
+  errorOccurred:
+    - ❌ Hata oluştu.
+  unknown:
+    - Bilinmeyen
+
